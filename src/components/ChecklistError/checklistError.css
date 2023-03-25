@@ -1,0 +1,16 @@
+.error_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  background-color: #efefef;
+  border-radius: 10px;
+  box-shadow: 12px 15px 42px -7px rgba(221, 221, 222, 0.58);
+}
+
+.error_container img {
+  width: 90%;
+  object-fit: contain;
+}
