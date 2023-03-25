@@ -1,0 +1,37 @@
+.checklist-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checklist-container span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checklist-search {
+  margin-bottom: 1em;
+}
+.checklist-items {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.checklist-items::-webkit-scrollbar {
+  width: 12px;
+}
+
+.checklist-items::-webkit-scrollbar-track {
+  background-color: rgba(243, 244, 246, 0.7);
+  border-radius: 20px;
+}
+
+.checklist-items::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    354deg,
+    rgba(82, 126, 235, 1) 23%,
+    rgba(250, 118, 113, 1) 76%
+  );
+  border-radius: 20px;
+  border: 3px solid rgba(243, 244, 246, 0.7);
+}

@@ -1,0 +1,38 @@
+.item_container {
+  margin: 1em;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  border-radius: 5px;
+  background-color: rgba(243, 244, 246, 0.7);
+}
+
+.item_container span {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-p {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+.item-p--complete {
+  text-decoration: line-through;
+}
+
+.react-icons {
+  width: 30px;
+  height: 30px;
+  color: var(--darkGrey-color);
+  cursor: pointer;
+  transition: all ease 0.25s;
+}
+
+.react-icons:hover {
+  transform: scale(1.1);
+}
