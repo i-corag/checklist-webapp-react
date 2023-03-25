@@ -1,0 +1,33 @@
+form {
+  width: 600px;
+  background-color: var(--lightGrey-color);
+  padding: 1em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+label {
+  text-align: center;
+  font-family: 'Alkatra', cursive;
+  font-size: 2em;
+  color: var(--melon-color);
+}
+
+textarea {
+  border: 2px solid var(--lightBlue-color);
+  border-radius: 5px;
+  color: var(--darkGrey-color);
+  text-align: center;
+  font-size: large;
+  margin: 0.5em;
+  padding: 1.5em;
+  height: 100px;
+  width: calc(100% - 25px);
+}
+
+textarea:focus {
+  outline-color: var(--melon-color);
+}
