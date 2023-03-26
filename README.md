@@ -1,5 +1,6 @@
 #### CHECKLIST
-[Link](https://vercel.com/i-corag/checklist-webapp-react)
+[Link](https://checklist-webapp-react.vercel.app)
+
 
 A simple interactive web app built with **React.js**
 
